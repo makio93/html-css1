@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utr-8">
+        <title>別ウィンドウで開くリンクにアイコンを表示する</title>
+        <style>
+            a {
+                color: #0073bc;
+            }
+            a:hover {
+                color: #b7dbf2;
+            }
+            a:active {
+                color: #4ca4e8;
+            }
+            a[target="_blank"]:after {
+                content: url(images/opentab.png);
+            }
+        </style>
+    </head>
+    <body>
+        <ul>
+            <li><a href="news01.html">はじめてログインするときは</a></li>
+            <li><a href="news02.html" target="_blank">ワンタイムパスワードの使い方ヘルプ</a></li>
+        </ul>
+    </body>
+</html>

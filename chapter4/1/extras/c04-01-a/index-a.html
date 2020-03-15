@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <title></title>
+        <style>
+            body {
+                font-size: 1.0em;
+            }
+            div {
+                font-size: 0.8em;
+            }
+        </style>
+    </head>
+    <body>
+        <p>bodyのフォントサイズ(1em = 16px)</p>
+        <div>
+            <p>body→divのフォントサイズ(16pxを継承したフォントサイズの0.8em = 約13px)</p>
+            <div>
+                <p>body→div→divのフォントサイズ(13pxを継承したフォントサイズの0.8em = 約10px)</p>
+            </div>
+        </div>
+    </body>
+</html>
