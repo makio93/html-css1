@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>パンくずリストを作成する</title>
+        <style>
+            .breadcrumb ul {
+                margin: 0;
+                padding: 0;
+                list-style-type: none;
+            }
+            .breadcrumb li {
+                color: #1864b9;
+            }
+            .breadcrumb li::after {
+                content: "≫";
+                color: #ccc;
+            }
+            .breadcrumb li:last-child::after {
+                content: none;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="breadcrumb">
+            <ul>
+                <li><a href="/">ホーム</a></li>
+                <li><a href="/products/">製品リスト</a></li>
+                <li><a href="/products/lens/">カメラレンズ</a></li>
+                <li>広角レンズ</li>
+            </ul>
+        </div>
+    </body>
+</html>

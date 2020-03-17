@@ -40,7 +40,7 @@
 ・/、/products/、/products/lens/
 ○文字色
 ・≫：#CCCCCC
-・その他：#1864b9
+・リンク色：#1864b9
 ◎c06-03-a
 ○枠線の色：#cccccc
 ○見出し
