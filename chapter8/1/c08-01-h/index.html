@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>テキストエリアにCSSを適用</title>
+        <style>
+            body {
+                margin: 0;
+            }
+            form {
+                padding: 16px;
+            }
+            textarea {
+                box-sizing: border-box;
+                width: 100%;
+                height: 12em;
+                border: 1px solid #ccc;
+                margin: 0.5em 0;
+                padding: 0.75em;
+                font-size: 16px;
+                color: #999;
+                border-radius: 6px;
+            }
+        </style>
+    </head>
+    <body>
+        <form action="#">
+            <p><label for="comment">お問い合わせの内容</label><br>
+                <textarea name="comment" id="comment"></textarea></p>
+        </form>
+    </body>
+</html>
