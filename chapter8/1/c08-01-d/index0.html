@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>テキストフィールドのサイズを幅100％にする</title>
+        <style>
+            body {
+                margin: 0;
+            }
+            .name-field {
+                box-sizing: border-box;
+                width: 100%;
+                padding: 16px;
+            }
+            .name-field input {
+                font-size: 16px;
+                padding: 0.5em;
+                margin: 0.5em 0;
+            }
+        </style>
+    </head>
+    <body>
+        <form action="#" class="name-field">
+            <p><label for="name-field">お名前</label><br>
+                <input type="text" name="name" id="name-field" required></p>
+        </form>
+    </body>
+</html>
