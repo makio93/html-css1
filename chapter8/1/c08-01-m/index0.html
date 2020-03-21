@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>送信ボタンのデザインを変える</title>
+        <style>
+            body {
+                margin: 0;
+            }
+            form {
+                padding: 16px;
+            }
+            input[type="submit"] {
+                border: 1px solid #0086f9;
+                border-radius: 6px;
+                padding: 12px 48px;
+                font-size: 16px;
+                color: #fff;
+                background: linear-gradient(0deg, #0086f9, #b6d6f7);
+                font-weight: bold;
+            }
+            input[type="submit"]:hover {
+                background: linear-gradient(0deg, #2894f9, #d2e4f7);
+            }
+            input[type="submit"]:active {
+                background: linear-gradient(0deg, #0074d8, #b6d6f7);
+            }
+        </style>
+    </head>
+    <body>
+        <form action="#">
+            <input type="submit" name="submit" value="送信する" id="submit">
+        </form>
+    </body>
+</html>
