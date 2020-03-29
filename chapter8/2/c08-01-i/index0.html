@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>ラジオボタンとチェックボックス</title>
+        <style>
+            form ul {
+                list-style-type: none;
+            }
+        </style>
+    </head>
+    <body>
+        <form action="#">
+            <p><label for="radio-button">時刻の設定</label><br></p>
+            <ul>
+                <li><p><input type="radio" name="r1" id="radio-button" value="1" checked>今すぐ出発</p></li>
+                <li><input type="radio" name="r2" id="radio-button" value="2">出発時刻</li>
+                <li><input type="radio" name="r3" id="radio-button" value="3">到着時刻</li>
+            </ul>
+            <p><label for="check-box">オプション</label><br></p>
+            <ul>
+                <li><p><input type="checkbox" name="c1" id="check-box" value="1" checked>特急を優先</p></li>
+                <li><input type="checkbox" name="c2" id="check-box" value="2" checked>新幹線を優先</li>
+                <li><input type="checkbox" name="c3" id="check-box" value="3">バスがあれば利用</li>
+            </ul>
+        </form>
+    </body>
+</html>
