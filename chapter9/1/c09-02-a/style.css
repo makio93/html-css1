@@ -1,0 +1,73 @@
+@charset "utf-8";
+
+body {
+    margin: 0;
+    color: #444;
+}
+
+.container {
+    margin: 0 auto 0;
+    padding: 0 16px 0 16px;
+    max-width: 1000px;
+}
+
+.header-inner {
+    background-color: #bad7f5;
+    padding: 10px 10px 0;
+}
+
+.nav-inner {
+    color: #fff;
+    background-color: #0086f9;
+    padding: 10px 10px 0;
+}
+
+section .container {
+    display: flex;
+    flex-flow: column;
+}
+
+main {
+    background-color: #fffde3;
+    padding: 20px 10px;
+    
+    /*
+      分かりやすくするために適用しているCSS
+    */
+    height: 400px;
+}
+
+.sidebar {
+    background-color: #c0f5b9;
+    padding: 20px 10px;
+}
+
+.footer-inner {
+    background-color: #bad7f5;
+    padding: 20px 16px 10px;
+}
+
+/* 分かりやすくするために適用しているCSS */
+main p:last-child {
+    margin-bottom: 0;
+}
+
+.main-title {
+    margin: 0;
+}
+
+.copyright {
+    margin: 0;
+}
+
+@media only screen and (min-width: 768px) {
+    section .container {
+        flex-flow: row;
+    }
+    main {
+        flex: 1 1 auto;
+    }
+    .sidebar {
+        flex: 0 0 340px;
+    }
+}
