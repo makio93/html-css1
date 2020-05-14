@@ -1,0 +1,113 @@
+@charset "utf-8";
+
+body {
+    margin: 0;
+    color: #444;
+}
+
+.container {
+    margin: 0 auto 0;
+    max-width: 1000px;
+}
+
+section .container {
+    display: block;
+}
+
+.header-inner {
+    background-color: #bad7f5;
+    padding: 10px 10px 0;
+}
+
+.main-inner {
+    background-color: #fffde3;
+    padding: 20px 10px;
+    
+    /*
+      分かりやすくするために適用しているCSS
+    */
+    height: 400px;
+}
+
+.sidebar-inner {
+    background-color: #c0f5b9;
+    padding: 20px 10px;
+}
+
+.footer-inner {
+    background-color: #bad7f5;
+    padding: 20px 16px 10px;
+}
+
+.hamburger {
+    border: none;
+    width: 50px;
+    height: 50px;
+    background: url(images/hamburger.png) no-repeat;
+    background-size: contain;
+}
+
+.navbar {
+    display: none;
+    margin: 0;
+    padding: 0;
+    background-color: #565656;
+    list-style-type: none;
+}
+
+.navbar a {
+    display: block;
+    padding: 10px 0;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: #565656;
+    background-color: #fff;
+}
+
+@media only screen and (min-width: 768px) {
+    .hamburger {
+        display: none;
+    }
+    .navbar {
+        display: block !important;
+        overflow: hidden;
+    }
+    .navbar li {
+        float: left;
+        width: 20%;
+    }
+    .navbar a {
+        text-align: center;
+    }
+    section .container {
+        overflow: hidden;
+    }
+    main {
+        float: left;
+        width: 100%;
+        margin-right: -340px;
+    }
+    .main-inner {
+        margin-right: 340px;
+    }
+    .sidebar {
+        float: right;
+        width: 340px;
+    }
+}
+
+/* 分かりやすくするために適用しているCSS */
+main p:last-child {
+    margin-bottom: 0;
+}
+
+.main-title {
+    margin: 0;
+}
+
+.copyright {
+    margin: 0;
+}
