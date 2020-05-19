@@ -1,0 +1,51 @@
+@charset "utf-8";
+
+body {
+  margin: 0;
+}
+
+/* レイアウトを設定 */
+.container {
+  padding: 0 16px;
+}
+
+.header-inner {
+  background-color: #bad7f5;
+}
+
+.nav-inner {
+  background-color: #0086f9;
+  color: #fff;
+}
+
+.main-inner {
+  background-color: #fffde3;
+  
+  /* 便宜上設定している */
+  height: 400px;
+}
+
+.footer-inner {
+  background-color: #bad7f5;
+}
+
+.sidebar-inner {
+  background-color: #c0f5b9;
+}
+
+/* 便宜上設定している */
+body {
+  color: #444;
+}
+
+main p:last-child {
+  margin-bottom: 0;
+}
+
+.main-title {
+  margin: 0;
+}
+
+.copyright {
+  margin: 0;
+}

@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+body {
+  margin: 0;
+}
+
+header, footer {
+  background-color: #bad7f5;
+}
+
+nav {
+  background-color: #0086f9;
+}
+
+.nav-inner {
+  color: #fff;
+}
+
+main {
+  background-color: #fffde3;
+  
+  /* 便宜上設定している */
+  height: 400px;
+}
+
+/* 便宜上設定している */
+.sidebar {
+  background-color: #c0f5b9;
+}
+
+main p:last-child {
+  margin-bottom: 0;
+}
+
+.main-inner {
+  margin: 0;
+}
